@@ -95,51 +95,6 @@ nav a {
 }
 
 
-
-@media screen and (max-width:576px) {
-    .header{
-        background-image: none;
-    }
-    .banner {
-        flex-direction: column;
-        padding: 10px;
-    }
-    .banner-title{
-        font-size: 50px;
-    }
-    .banner .profile-pic{
-        width: 90%;
-    }
-    nav{
-        align-items: center;
-        justify-content:space-around;
-        gap: 10px;
-    }
-    .nav-title{
-        font-size: 30px;
-        margin-right: 20px;
-    }
-    nav ul{
-        margin: 0px 0px;
-    }
-    .btn-primary{
-        font-size: 15px;
-        font-weight: 500;
-        padding: 10px 10px;
-        width: max-content;
-    }
-    nav li {
-        margin-right: 20px;
-    }
-    
-}
-
-
-
-
-
-
-
 /* main section style */
 main{
     max-width: 1140px;
@@ -351,4 +306,41 @@ footer{
     }
 
 }
-
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    .banner {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .banner-title{
+        font-size: 50px;
+    }
+    .banner .profile-pic{
+        width: 90%;
+        margin-bottom: -10px;
+    }
+    nav{
+        align-items: center;
+        justify-content:space-around;
+        gap: 10px;
+    }
+    .nav-title{
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    nav ul{
+        margin: 0px 0px;
+    }
+    .btn-primary{
+        font-size: 15px;
+        font-weight: 500;
+        padding: 10px 10px;
+        width: max-content;
+    }
+    nav li {
+        margin-right: 20px;
+    }
+    
+}
